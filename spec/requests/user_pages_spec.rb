@@ -39,7 +39,6 @@ describe "UserPages" do
         it { should have_content("Password can't be blank") }
         it { should have_content("Password is too short") }
         it { should have_content("Password confirmation can't be blank") }
-        it { should have_content("Password digest can't be blank") }
       end
     end
 
